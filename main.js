@@ -1,7 +1,7 @@
-let number = document.getElementById("number")
 const decreaseButton = document.getElementById("decreaseButton")
 const resetButton = document.getElementById("resetButton")
 const increaseButton = document.getElementById("increaseButton")
+let number = document.getElementById("number")
 
 function blackColor() {
   if (Number(number.innerHTML) === 0) {
